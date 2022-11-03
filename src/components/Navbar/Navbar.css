@@ -1,0 +1,42 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 85px;
+}
+
+.logo {
+    align-items: center;
+    padding-top: 5px;
+}
+
+.logo h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #08e4e4;
+}
+
+.logo p {
+    text-align: center;
+    font-size: 13px;
+    color: #d9eded;
+}
+
+.nav-list  {
+    display: flex; 
+    align-items: center;
+}
+
+.nav-item {
+    padding-right: 45px;
+    list-style: none;
+    color: #d9eded;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav-contato {
+    padding: 5px;
+    list-style: none;
+    cursor: pointer;
+}
