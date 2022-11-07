@@ -1,7 +1,7 @@
 .nav-container {
     display: flex;
     justify-content: space-between;
-    padding: 21px 85px;
+    padding: 9px 85px;
 }
 
 .logo {

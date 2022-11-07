@@ -1,0 +1,7 @@
+.container-about {
+    background: url(/public/img/imgbback.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
