@@ -1,7 +1,58 @@
 .container-about {
-    background: url(/public/img/imgbback.jpg);
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)),url(/public/img/imgbback.jpg);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    margin: auto;
+    padding: auto;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+}
+
+.container h4 {
+    font-weight: bold;
+    font-size: 33px;
+    color: #d9eded;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 69px;
+    font-weight: bold;
+    color: #04f7f7;
+    text-align: center;
+}
+
+.container p {
+    font-size: 21px;
+    color: #d9eded;
+    text-align: center;
+}
+.container-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button {
+    cursor: pointer;
+    list-style: none;
+    border-color: #04f7f7;
+    height: 3rem !important;
+    padding: 0 3rem 0 3rem !important;
+    margin-top: 0.9rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background: transparent !important;
+    border: 3px solid rgb(14, 14, 14);
+    border-radius: 35px;
+    overflow: hidden;
+    font-weight: bold;
 }

@@ -1,7 +1,11 @@
 .nav-container {
     display: flex;
     justify-content: space-between;
-    padding: 9px 85px;
+    padding: 1px 85px;
+    background-color: #4e4e4e;
+    position: fixed;
+    width: 100%;
+
 }
 
 .logo {
@@ -10,14 +14,14 @@
 }
 
 .logo h1 {
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #08e4e4;
 }
 
 .logo p {
     text-align: center;
-    font-size: 13px;
+    font-size: 11px;
     color: #d9eded;
 }
 
