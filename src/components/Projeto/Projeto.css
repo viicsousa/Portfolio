@@ -8,13 +8,13 @@
 }
 .container-projetos h3 {
     font-size: 35px;
-    padding: 41px;
+    padding: 45px;
 }
 
 .container-projetos ul {
     display: flex;
     list-style: none;
-    padding-bottom: 75px;
+    padding-bottom: 85px;
 }
 
 .container-projetos ul li {
@@ -28,6 +28,7 @@
     font-weight: bolder;
     font-style: oblique;
     font-size: 18px;
+
 }
 
 

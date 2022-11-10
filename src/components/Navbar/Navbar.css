@@ -25,7 +25,7 @@
     color: #d9eded;
 }
 
-.nav-list  {
+.nav-list {
     display: flex; 
     align-items: center;
 }
@@ -44,3 +44,9 @@
     list-style: none;
     cursor: pointer;
 }
+
+.imgcontato:hover {
+    background: #d9eded;
+    border-radius: 35px;
+
+};
