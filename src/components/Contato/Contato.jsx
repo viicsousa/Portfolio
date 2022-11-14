@@ -1,15 +1,18 @@
-import './Contato.css'
+import React, { Component} from "react"
+import {Div, Title, Text} from './styles.js'
 
-const Contato = () => {
+class Contato extends Component {
+    render () {
     return (
-        <div className='container-contato'>
-            <h3>Contato</h3>
-            <p>Se você quiser conversar, entre em contato, estou quase sempre online :) </p>
-            <p>Envie uma mensagem</p>
-            <p>WhatsApp: (62) 98579-7421</p>
-            <p>Email: victoria.vasconcelos@hotmail.com</p>
-        </div>
+        <Div>
+            <Title>Contato</Title>
+            <Text>Se você quiser conversar, entre em contato, estou quase sempre online :) </Text>
+            <Text>Envie uma mensagem</Text>
+            <Text>WhatsApp: (62) 98579-7421</Text>
+            <Text>Email: victoria.vasconcelos@hotmail.com</Text>
+        </Div>
     )
+}
 };
 
-export default Contato
+export default Contato;
