@@ -11,8 +11,9 @@
 }
 
 .apre-sobremim p {
-    padding: 1px 350px 41px 350px;
-    line-height: 41px;
+    padding: 2px 22% 40px 22%;
+    line-height: 35px;
+    margin-bottom: 40px;
 }
 
 .apre-sobremim hr {
@@ -20,4 +21,12 @@
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+
+@media (max-width: 1157px) {
+    .apre-sobremim p {
+        padding: 1px 12% 41px 12%;
+        line-height: 25px;
+    }
+};
+
 
