@@ -16,13 +16,13 @@ const Ul = styled.ul `
         font-size: 18px;
         cursor: pointer;
 
-        :nth-child(1) {
-            padding-left: 450px;
-        }
+    }
 
+    @media (min-width: 1191px) {
+        padding-left: 450px;
     }
     
-    @media (max-width: 1190px) {
+    @media (max-width: 1000px) {
         flex-flow: column nowrap;
         background-color: #5c5c5c;
         position: fixed;
@@ -40,8 +40,8 @@ const Ul = styled.ul `
 const List = ({open}) => {
     return (
         <Ul open={open}>
-            <li> Sobre</li>
-            <li>Projetos </li>
+            <li>Sobre</li>
+            <li>Projetos</li>
             <li>Contato</li>
         </Ul>
     )

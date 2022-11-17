@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import styled from "styled-components";
-export const Div = styled.div`
+ const Div = styled.div`
     background-color: #d9eded;
     text-align: center;
     padding: 0;
@@ -9,7 +9,7 @@ export const Div = styled.div`
     height: 400px;
 `;
 
-export const Title = styled.h3 `
+ const Title = styled.h3 `
     font-size: 35px;
     padding: 45px;
 
@@ -19,8 +19,7 @@ export const Title = styled.h3 `
     }
 
 `;
-
-export const Text = styled.p `
+    const Text = styled.p `
     line-height: 42px;
     font-size: 18px;
     
