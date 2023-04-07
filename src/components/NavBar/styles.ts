@@ -94,4 +94,7 @@ export const Nav = styled.text`
   :hover {
     color:#66c4c8;
   }
+  @media (max-width: 500px) {
+    font-size: 18px;
+  }
 `;
