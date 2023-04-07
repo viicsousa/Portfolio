@@ -31,7 +31,6 @@ export default function NavBar() {
         setLoading(false);
       }, 2000);
     }
-    setLoading(false);
   }, [])
 
   return (
