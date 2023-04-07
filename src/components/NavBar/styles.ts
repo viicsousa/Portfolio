@@ -1,16 +1,23 @@
 import styled from "styled-components";
 
-export const Structure = styled.div``;
+export const Structure = styled.div`
+  position: relative;
+`;
 
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  height: 4rem;
+  justify-content: space-between;
+  height: 3.5rem;
   background-color: #323232;
+  padding: 0 1rem;
   width: 100%;
   #logo {
     height: 7rem;
     width: 7rem;
+  }
+  @media (max-width: 500px) {
+    padding: 0;
   }
 `;
 
@@ -25,38 +32,66 @@ export const Loading = styled.div`
   z-index: 3;
 
   .logo {
-
     animation: loading 2s linear infinite;
     @keyframes loading {
-	100% {
-		transform: rotate(360deg);
-	}
-}
+      100% {
+        transform: rotate(360deg);
+      }
+    }
   }
 `;
 
 export const ContainerNav = styled.div`
+  padding: 0;
   display: flex;
-  align-content: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0 2rem;
-
-`; 
+  align-items: center;
+  gap: 0.8rem;
+  cursor: pointer;
+  #hamburger {
+    height: 1.5rem;
+  }
+  #close {
+    height: 1.5rem;
+  }
+  div {
+    display: flex;
+  }
+`;
 export const ContainerLogo = styled.div`
   display: flex;
-  color: #7dce82;
 `;
 
 export const Navigation = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  `;
+  position: absolute;
+  background-color: #323232;
+  right: 0;
+  padding: 1.5rem 4.5rem 2.5rem;
+  gap: 0.9rem;
+  animation-duration: 2s ;
+  animation-name: slidein;
+  @keyframes slidein {
+    from {
+      top: 0;
+    }
+    to {
+      top: 3.5rem;
+    }
+    
+  }
+  @media (max-width: 500px) {
+    padding: 1rem 3rem 2rem;
+  }
+`;
 
-  export const Nav = styled.text`
-    color: #66c4c8;
-  
-  `;
-
+export const Nav = styled.text`
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  :hover {
+    color:#66c4c8;
+  }
+`;
