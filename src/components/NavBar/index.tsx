@@ -1,6 +1,7 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import Image from "next/image";
+import Lottie from "react-lottie";
 
 import {
   Structure,
@@ -13,9 +14,17 @@ import {
 } from "./styles";
 
 import Logo from "../../assets/img/png/logo.png";
+import Hamburger from "../../assets/animations/hamburger.json";
 
 export default function NavBar() {
   const [getLoading, setLoading] = useState<boolean>(true);
+  const [hamburger, setHamburger] = useState(false);
+
+  const defaultHamburgerOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: Hamburger
+  }
 
   function timeOutSpinner() {
     setLoading(true);
@@ -46,14 +55,15 @@ export default function NavBar() {
           <ContainerLogo>
             <Image src={Logo} alt="" height={40} />
           </ContainerLogo>
-          <Navigation>
+          <Lottie options={defaultHamburgerOptions}/>
+          { hamburger && <Navigation>
             <Nav>Home</Nav>
             <Nav>Sobre</Nav>
             <Nav>Serviços</Nav>
             <Nav>Habilidades</Nav>
             <Nav>Projeto</Nav>
             <Nav>Contato</Nav>
-          </Navigation>
+          </Navigation>}
         </ContainerNav>
       </Container>
     </Structure>
