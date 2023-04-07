@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import Image from "next/image";
 
@@ -21,18 +21,27 @@ export default function NavBar() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 200);
   }
+
+  useEffect(() => {
+    function timeOutSpinner() {
+      setLoading(true);
+      setTimeout(() => {
+        setLoading(false);
+      }, 2000);
+    }
+    setLoading(true);
+  }, [])
 
   return (
     <Structure onLoad={timeOutSpinner}>
-      {getLoading ? (
+      {getLoading ? 
         <Loading>
-          <Image src={Logo} alt="" height={50} className="logo" />
-        </Loading>
-      ) : (
+          <Image src={Logo} alt="" height={50} className="logo"  />
+        </Loading>: 
         false
-      )}
+      }
       <Container>
         <ContainerNav>
           <ContainerLogo>
