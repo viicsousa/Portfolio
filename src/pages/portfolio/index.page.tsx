@@ -4,6 +4,7 @@ export default function Portfolio () {
   return (
   <>
     <NavBar/>
+    <About/>
   </>
   )
 }

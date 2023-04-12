@@ -21,6 +21,7 @@ export default function NavBar() {
   const [getLoading, setLoading] = useState<boolean>(true);
   const [hamburger, setHamburger] = useState(false);
 
+
   function timeOutSpinner() {
     setLoading(true);
     setTimeout(() => {
