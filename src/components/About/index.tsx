@@ -4,6 +4,7 @@ import { Container, TextAbout, Title, Name, Dev, Aboutme, Social, ImgAbout } fro
 import Computer from "../../assets/animations/computer.json";
 import Linkedin from "../../assets/animations//linkedin.json";
 import Github from "../../assets/animations/github.json";
+import Sociais from "../Sociais";
 
 export default function About() {
   const defaultOptionsComputerAnimation = {
@@ -38,6 +39,7 @@ export default function About() {
         <Name>VICTÓRIA VASCONCELOS.</Name>
         <Dev>Eu sou desenvolvedora web.</Dev>
         <Aboutme>Possuo 1 ano de experiência como desenvolvedora web, utilizando as principais tecnologias do mercado.</Aboutme>
+        <Sociais/>
       </TextAbout>
       <ImgAbout>
         <Lottie options={defaultOptionsComputerAnimation} />
