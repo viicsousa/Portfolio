@@ -19,7 +19,27 @@ export const Container = styled.div`
   @media (max-width: 500px) {
     padding: 0;
   }
-`
+`;
+
+export const Loading = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #323232;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 3;
+
+  .logo {
+    animation: loading 2s linear infinite;
+    @keyframes loading {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+`;
 
 export const ContainerNav = styled.div`
   padding: 0;
@@ -53,6 +73,7 @@ export const Navigation = styled.div`
   gap: 0.9rem;
   animation-duration: 2s ;
   animation-name: slidein;
+  z-index: 3;
   @keyframes slidein {
     from {
       top: 0;
@@ -72,7 +93,7 @@ export const Nav = styled.text`
   color: white;
   cursor: pointer;
   :hover {
-    color:#66c4c8;
+    color:#6318d9;
   }
   @media (max-width: 500px) {
     font-size: 18px;

@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #373737;
+  background: #363636;
   width: 100%;
 
 `;
@@ -24,14 +24,15 @@ export const TextAbout = styled.div`
 `;
 
 export const Title = styled.div`
-  color: #6318d9;
-  font-size: 16px;
+  color: #FFFFFF;
+  font-size: 15px;
+  opacity: 0.5;
 `;
 
 export const Name = styled.span`
-  color: #FFFFFF;
+color: #FFFFFF;
   -webkit-text-stroke-width: 0.9px;
-  -webkit-text-stroke-color: #f26c3c;
+  -webkit-text-stroke-color: #6318d9;
   font-weight: bold;
   font-size: 51px;
   padding-top: 0.5rem;
@@ -42,7 +43,7 @@ export const Name = styled.span`
 export const Dev = styled.div`
   color: #FFFFFF;
   -webkit-text-stroke-width: 0.9px;
-  -webkit-text-stroke-color: #f26c3c;
+  -webkit-text-stroke-color: #6318d9;
   font-weight: bold;
   font-size: 40px;
   opacity: 0.5;
@@ -53,9 +54,16 @@ export const Aboutme = styled.div`
   font-size: 16px;
 `;
 
+export const ContainerInfo = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  gap: 3rem;
+`;
+
 export const Button = styled.button`
-margin-top: 40px;
-    
+  margin-top: 10px;
         position: relative;
         overflow: hidden;
         display: inline-block;
@@ -63,7 +71,6 @@ margin-top: 40px;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.05em;
-        height: 56px;
         line-height: 52px;
         outline: none !important;
         cursor: pointer;

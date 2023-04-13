@@ -13,6 +13,6 @@ export const ContainerSociais = styled.div`
     cursor: pointer;
     opacity: 0.7;
     &:hover {
-      color: #6318d9;
+      color: #f26c3c;
     }}
 `;
