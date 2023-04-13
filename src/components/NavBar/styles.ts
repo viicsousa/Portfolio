@@ -19,27 +19,7 @@ export const Container = styled.div`
   @media (max-width: 500px) {
     padding: 0;
   }
-`;
-
-export const Loading = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #323232;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: 3;
-
-  .logo {
-    animation: loading 2s linear infinite;
-    @keyframes loading {
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-  }
-`;
+`
 
 export const ContainerNav = styled.div`
   padding: 0;

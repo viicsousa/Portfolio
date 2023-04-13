@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import Image from "next/image";
 import Lottie from "react-lottie";
@@ -6,7 +6,6 @@ import Lottie from "react-lottie";
 import {
   Structure,
   Container,
-  Loading,
   ContainerNav,
   ContainerLogo,
   Navigation,
@@ -18,18 +17,7 @@ import HamburgerImg from "../../assets/img/svg/hamburger.svg";
 import Close from "../../assets/img/svg/close.svg";
 
 export default function NavBar() {
-  const [getLoading, setLoading] = useState<boolean>(true);
   const [hamburger, setHamburger] = useState(false);
-
-
-  function timeOutSpinner() {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 200);
-  }
-
-  
 
   return (
     <Structure>

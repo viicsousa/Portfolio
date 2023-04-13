@@ -53,6 +53,33 @@ export const Aboutme = styled.div`
   font-size: 16px;
 `;
 
-export const Social = styled.div``;
+export const Button = styled.button`
+margin-top: 40px;
+    
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        height: 56px;
+        line-height: 52px;
+        outline: none !important;
+        cursor: pointer;
+        padding: 0 40px;
+        transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+        border: 2px solid #000;
+        background: transparent;
+        box-shadow: 5px 5px rgb(0 0 0 / 20%);
+        border-radius: 56px;
+        color: #fff;
+        border-color: #a3a5a7;
+        box-shadow: 5px 5px rgb(255 255 255 / 10%);
+        &:hover {
+          background: #29a587;
+        }
+      
+`;
 
 export const ImgAbout = styled.div``;
