@@ -22,7 +22,7 @@ export default function About() {
         <Aboutme>Possuo 1 ano de experiência como desenvolvedora web, utilizando as principais tecnologias do mercado.</Aboutme>
         <ContainerInfo>
         <Sociais/>
-          <Button>Download CV</Button>
+          <a href="https://drive.google.com/file/d/12_d-iZ9J_IZj9owjYyRoZgxi8MRIfkPr/view?usp=sharing" target="_blank"><Button>Download CV</Button></a>
           </ContainerInfo>
       </TextAbout>
       <ImgAbout>

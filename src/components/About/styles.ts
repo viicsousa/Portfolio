@@ -16,27 +16,52 @@ export const TextAbout = styled.div`
   justify-content: center;
   flex-direction: column;
   text-align: left;
-  
   padding: 10rem;
   flex-wrap: wrap;
-  
+  @media (max-width: 870px) {
+    padding: 5rem;
+  }
+  @media (max-width: 590px) {
+    padding: 3rem;
+  }
+  @media (max-width: 415px) {
+    padding: 2.5rem 1.5rem;
+  }
+  @media (max-width: 375px){
+    padding: 2rem 1.5rem;
+  }
   
 `;
 
 export const Title = styled.div`
   color: #FFFFFF;
-  font-size: 15px;
+  font-size: 16px;
   opacity: 0.5;
+  @media (max-width: 515px) {
+    font-size: 14px;
+  }
+  @media (max-width: 375px){
+    font-size: 12px;
+  }
 `;
 
 export const Name = styled.span`
-color: #FFFFFF;
+  color: #FFFFFF;
   -webkit-text-stroke-width: 0.9px;
   -webkit-text-stroke-color: #6318d9;
   font-weight: bold;
   font-size: 51px;
   padding-top: 0.5rem;
   opacity: 0.;
+  @media (max-width: 1300px) {
+    font-size: 42px;
+  }
+  @media (max-width: 515px) {
+    font-size: 32px;
+  }
+  @media (max-width: 375px){
+    font-size: 28px;
+  }
   
 `;
 
@@ -47,11 +72,26 @@ export const Dev = styled.div`
   font-weight: bold;
   font-size: 40px;
   opacity: 0.5;
+  @media (max-width: 1300px) {
+    font-size: 30px;
+  }
+  @media (max-width: 515px) {
+    font-size: 20px;
+  }
+  @media (max-width: 375px){
+    font-size: 18px;
+  }
 `;
 export const Aboutme = styled.div`
   color: #FFFFFF;
   opacity: 0.5;
   font-size: 16px;
+  @media (max-width: 515px) {
+    font-size: 14px;
+  }
+  @media (max-width: 375px){
+    font-size: 12px;
+  }
 `;
 
 export const ContainerInfo = styled.div`
@@ -60,6 +100,10 @@ export const ContainerInfo = styled.div`
   justify-content: center;
   padding: 2rem 0;
   gap: 3rem;
+  @media (max-width: 375px){
+    gap: 2rem;
+    padding: 1.5rem 0;
+  }
 `;
 
 export const Button = styled.button`
@@ -84,9 +128,23 @@ export const Button = styled.button`
         border-color: #a3a5a7;
         box-shadow: 5px 5px rgb(255 255 255 / 10%);
         &:hover {
-          background: #29a587;
+          background: #6318d9;
         }
+        @media (max-width: 515px) {
+          font-size: 11px;
+          padding: 0 25px;
+          line-height: 42px;
+  }
+  @media (max-width: 375px){
+    font-size: 10px;
+    padding: 0 18px;
+          line-height: 40px;
+  }
       
 `;
 
-export const ImgAbout = styled.div``;
+export const ImgAbout = styled.div`
+  @media (max-width: 1060px) {
+    display: none;
+  }
+`;
