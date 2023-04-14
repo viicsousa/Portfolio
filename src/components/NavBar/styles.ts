@@ -7,6 +7,7 @@ export const Structure = styled.div`
 export const Container = styled.div`
   display: flex;
   align-items: center;
+  position: fixed;
   justify-content: space-between;
   height: 3.5rem;
   background-color: #323232;
@@ -61,6 +62,14 @@ export const ContainerLogo = styled.div`
   display: flex;
 `;
 
+export const Modal = styled.div`
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 3;
+`;
+
 export const Navigation = styled.div`
   display: flex;
   flex-direction: column;
@@ -68,6 +77,7 @@ export const Navigation = styled.div`
   justify-content: center;
   position: absolute;
   background-color: #323232;
+  top: 3rem;
   right: 0;
   padding: 1.5rem 4.5rem 2.5rem;
   gap: 0.9rem;
@@ -79,7 +89,7 @@ export const Navigation = styled.div`
       top: 0;
     }
     to {
-      top: 3.5rem;
+      top: 3rem;
     }
     
   }
@@ -93,7 +103,7 @@ export const Nav = styled.text`
   color: white;
   cursor: pointer;
   :hover {
-    color:#6318d9;
+    color:#F27649;
   }
   @media (max-width: 500px) {
     font-size: 18px;

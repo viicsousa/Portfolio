@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 
 import Image from "next/image";
 import Lottie from "react-lottie";
@@ -8,6 +8,7 @@ import {
   Container,
   ContainerNav,
   ContainerLogo,
+  Modal,
   Navigation,
   Nav,
 } from "./styles";
@@ -18,6 +19,10 @@ import Close from "../../assets/img/svg/close.svg";
 
 export default function NavBar() {
   const [hamburger, setHamburger] = useState(false);
+
+  const handleclose = useCallback(() => {
+    setHamburger(false);
+  },[])
 
   return (
     <Structure>
@@ -30,13 +35,17 @@ export default function NavBar() {
           </ContainerNav>
       </Container>
         {hamburger && 
-        <Navigation>
+          <Modal onClick={handleclose}>
+            <Navigation onClick={(e) => {
+            e.stopPropagation();
+          }}>
           <Nav>Home</Nav>
           <Nav>Resumo</Nav>
           <Nav>Habilidades</Nav>
           <Nav>Portfolio</Nav>
           <Nav>Contato</Nav>
         </Navigation>
+          </Modal>
       }
     </Structure>
   );

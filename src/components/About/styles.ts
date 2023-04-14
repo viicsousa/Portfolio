@@ -128,7 +128,7 @@ export const Button = styled.button`
         border-color: #a3a5a7;
         box-shadow: 5px 5px rgb(255 255 255 / 10%);
         &:hover {
-          background: #6318d9;
+          background: #F27649;
         }
         @media (max-width: 515px) {
           font-size: 11px;
