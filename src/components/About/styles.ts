@@ -34,9 +34,9 @@ export const TextAbout = styled.div`
 `;
 
 export const Title = styled.div`
-  color: #FFFFFF;
+  color: #F27649;
   font-size: 16px;
-  opacity: 0.5;
+  opacity: 0.8;
   @media (max-width: 515px) {
     font-size: 14px;
   }
@@ -48,7 +48,7 @@ export const Title = styled.div`
 export const Name = styled.span`
   color: #FFFFFF;
   -webkit-text-stroke-width: 0.9px;
-  -webkit-text-stroke-color: #6318d9;
+  -webkit-text-stroke-color: #F27649;
   font-weight: bold;
   font-size: 51px;
   padding-top: 0.5rem;
@@ -68,7 +68,7 @@ export const Name = styled.span`
 export const Dev = styled.div`
   color: #FFFFFF;
   -webkit-text-stroke-width: 0.9px;
-  -webkit-text-stroke-color: #6318d9;
+  -webkit-text-stroke-color: #F27649;
   font-weight: bold;
   font-size: 40px;
   opacity: 0.5;

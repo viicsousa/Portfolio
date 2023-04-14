@@ -23,7 +23,7 @@ export default function NavBar() {
     <Structure>
       <Container>
           <ContainerLogo>
-            <Image src={Logo} alt="" height={40} />
+            <Image src={Logo} alt="" height={48} />
           </ContainerLogo>
           <ContainerNav onClick={()=> setHamburger(!hamburger)}>
             {hamburger ? (<Image src={Close} alt="" id="close"/>) : (<Image src={HamburgerImg} alt="" id="hamburger"/>)}
