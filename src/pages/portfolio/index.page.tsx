@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import About from "@/components/About";
 import NavBar from "@/components/NavBar";
 import Loading from "@/components/Loading";
+import Resume from "@/components/Resume";
 
 export default function Portfolio () {
   const [loading, setLoading] = useState(true);
@@ -19,6 +20,7 @@ export default function Portfolio () {
       <>
     <NavBar/>
     <About/>
+    <Resume/>
       </>
     )}
     

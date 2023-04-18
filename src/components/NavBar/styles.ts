@@ -13,6 +13,7 @@ export const Container = styled.div`
   background-color: #323232;
   padding: 0 1rem;
   width: 100%;
+  z-index: 3;
   #logo {
     height: 7rem;
     width: 7rem;
