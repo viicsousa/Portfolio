@@ -56,14 +56,6 @@ export default function NavBar() {
             offset={-100}
             duration={500}
             onClick={() => setCheck(false)}>Resumo</Link>
-          <Link to="skills"
-            activeClass="active"
-            className="nav"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            onClick={() => setCheck(false)}>Habilidades</Link>
           <Link to="projects"
             activeClass="active"
             className="nav"
@@ -71,7 +63,7 @@ export default function NavBar() {
             smooth={true}
             offset={-100}
             duration={500}
-            onClick={() => setCheck(false)}>Portfolio</Link>
+            onClick={() => setCheck(false)}>Projetos</Link>
           <Link to="contact"
             activeClass="active"
             className="nav"
