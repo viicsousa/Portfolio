@@ -22,7 +22,7 @@ export const TextAbout = styled.div`
     padding: 5rem;
   }
   @media (max-width: 590px) {
-    padding: 3rem;
+    padding: 5rem 3rem;
   }
   @media (max-width: 415px) {
     padding: 2.5rem 1.5rem;
