@@ -15,7 +15,7 @@ export default function About() {
   }
   return (
     <Container>
-      <TextAbout>
+      <TextAbout id="home">
         <Title>Olá, meu nome é</Title>
         <Name>VICTÓRIA VASCONCELOS.</Name>
         <Dev>Eu sou desenvolvedora web.</Dev>

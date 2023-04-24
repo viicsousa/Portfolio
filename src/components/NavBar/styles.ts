@@ -85,6 +85,17 @@ export const Navigation = styled.div`
   animation-duration: 2s ;
   animation-name: slidein;
   z-index: 3;
+  .nav {
+    font-size: 20px;
+  color: white;
+  cursor: pointer;
+  :hover {
+    color:#F27649;
+  }
+  @media (max-width: 500px) {
+    font-size: 18px;
+  }
+  }
   @keyframes slidein {
     from {
       top: 0;
@@ -99,14 +110,4 @@ export const Navigation = styled.div`
   }
 `;
 
-export const Nav = styled.text`
-  font-size: 20px;
-  color: white;
-  cursor: pointer;
-  :hover {
-    color:#F27649;
-  }
-  @media (max-width: 500px) {
-    font-size: 18px;
-  }
-`;
+

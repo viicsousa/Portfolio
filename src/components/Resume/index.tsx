@@ -2,7 +2,7 @@ import { ContainerResume, Title, Text, Tecnologias} from "./styles";
 
 export default function Resume () {
   return (
-    <ContainerResume>
+    <ContainerResume id="resume">
       <Title>
         <h2>Sobre mim</h2>
         <div></div>
