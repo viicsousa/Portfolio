@@ -4,6 +4,7 @@ import NavBar from "@/components/NavBar";
 import Loading from "@/components/Loading";
 import Resume from "@/components/Resume";
 import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
 
 export default function Portfolio () {
   const [loading, setLoading] = useState(true);
@@ -23,6 +24,7 @@ export default function Portfolio () {
     <About/>
     <Resume/>
     <Projects/>
+    <Contact/>
       </>
     )}
     

@@ -16,7 +16,7 @@ export const TextAbout = styled.div`
   justify-content: center;
   flex-direction: column;
   text-align: left;
-  padding: 10rem;
+  padding: 10rem 10rem 8rem 10rem ;
   flex-wrap: wrap;
   @media (max-width: 870px) {
     padding: 5rem;
@@ -35,7 +35,7 @@ export const TextAbout = styled.div`
 
 export const Title = styled.div`
   color: #F27649;
-  font-size: 16px;
+  font-size: 18px;
   opacity: 0.8;
   @media (max-width: 515px) {
     font-size: 14px;

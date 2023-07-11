@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
-export const ContainerProjects = styled.div`
+export const Container =styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   background: #363636;
   width: 100%;
-  padding: 5rem 10rem;
+  padding: 0rem 10rem;
   @media (max-width: 870px){
     padding: 0 5rem;
   }
@@ -45,51 +45,4 @@ export const Title = styled.div`
     }
   }
   
-`;
-
-export const Cards = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  color: #ffffff;
-  opacity: 0.7;
-  gap: 4rem;
-`;
-
-export const Card = styled.div`
-  display: flex;
-  text-align: justify;
-  flex-direction: column;
-  gap: 1rem;
-  width: 22rem;
-  
-
-`;  
-
-export const TypeProject = styled.div`
-  font-size: 18px;
-  color: #F27649;
-`;
-
-export const TitleProject = styled.div`
-  font-weight: bold;
-  font-size: 18px;
-`;
-
-export const Description = styled.div``;
-
-export const Acess = styled.div`
-  color: #F27649;
-  text-decoration: underline;
-  font-size: 14px;
-  cursor: pointer;
-  :hover {
-    transform: scale(1.1);
-    color: #F27649;
-  }
-`;
-
-export const Links = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 1rem;
 `;

@@ -7,7 +7,7 @@ export const ContainerResume = styled.div`
   flex-direction: column;
   background: #363636;
   width: 100%;
-  padding: 1rem 10rem;
+  padding: 0rem 10rem;
   @media (max-width: 870px){
     padding: 0 5rem;
   }
