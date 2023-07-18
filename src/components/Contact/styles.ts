@@ -2,12 +2,13 @@ import styled from "styled-components";
 
 export const Container =styled.div`
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   background: #363636;
+
   width: 100%;
-  padding: 0rem 10rem;
+  padding: 0rem 10rem 6rem 10rem;
   @media (max-width: 870px){
     padding: 0 5rem;
   }
@@ -47,7 +48,27 @@ export const Title = styled.div`
   
 `;
 
-export const Contacts = styled.div``;
-export const Contato = styled.div``;
+export const Contacts = styled.div`
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.5rem;
+  padding-top: 0.7rem;
+  gap: 5rem;
+  opacity: 0.7;
+`;
+export const Contato = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 0.4rem;
+h5 {
+  font-size: 22px;
+}
+span {
+  font-size: 14px;
+}
+`;
 
 
