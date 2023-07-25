@@ -59,16 +59,36 @@ export const Contacts = styled.div`
 `;
 export const Contato = styled.div`
 display: flex;
+cursor: pointer;
 flex-direction: column;
 align-items: center;
-justify-content: center;
+justify-content: flex-start;
 gap: 0.4rem;
+:hover {
+  transform: scale(1.1);
+  color: none;
+  opacity: 0.7;
+}
+a {
+  color: #fff;
+}
+.img{
+  color: #f27649;
+  background-color: #323232;
+  width: 4rem;
+  height: 5rem;
+  padding: 1rem;
+  border-radius: 5px 20px 5px;
+}
+
 h5 {
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: 700;
 }
 span {
-  font-size: 14px;
+  font-size: 12px;
 }
+
 `;
 
 

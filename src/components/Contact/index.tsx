@@ -10,20 +10,27 @@ export default function Contact() {
       <div></div></Title>
       <Contacts>
         <Contato>
-          <BsFillEnvelopeFill/>
+          <BsFillEnvelopeFill className='img'/>
           <h5>E-mail</h5>
           <span>victoria.vasconcelos@hotmail.com</span></Contato>
         <Contato>
-          <AiOutlineWhatsApp/>
+          <a href="https://wa.me/5562985797421" target='_blank'> <AiOutlineWhatsApp className='img'/>
           <h5>Telefone</h5>
-          <span>(62) 985797421</span></Contato>
+          <span>(62) 985797421</span></a>
+          </Contato>
           <Contato>
-          <AiFillGithub/>
+          <a href="https://github.com/viicsousa" target='_blank'>
+          <AiFillGithub className='img'/>
           <h5>Github</h5>
-          <span>@viicsousa</span></Contato>
+          <span>@viicsousa</span>
+          </a>
+          </Contato>
         <Contato>
-          <BsLinkedin/>
-          <h5>Linkedin</h5></Contato>
+          <a href="https://www.linkedin.com/in/vict%C3%B3ria-vasconcelos-de-sousa-aguiar-28550392/" target='_blank'>
+          <BsLinkedin className='img'/>
+          <h5>Linkedin</h5>
+          </a>
+         </Contato>
        
       </Contacts>
     </Container>
