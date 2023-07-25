@@ -9,10 +9,10 @@ export const ContainerProjects = styled.div`
   width: 100%;
   padding: 5rem 10rem;
   @media (max-width: 870px){
-    padding: 0 5rem;
+    padding: 0 5rem 5rem 5rem;
   }
   @media (max-width: 590px) {
-    padding: 0 3rem;
+    padding: 0 3rem 3rem 3rem;
   }
   @media (max-width: 415px) {
     padding: 2.5rem 1.5rem;
@@ -61,6 +61,9 @@ export const Card = styled.div`
   flex-direction: column;
   gap: 1rem;
   width: 22rem;
+  @media (max-width: 400px) {
+    width: 19rem;
+  }
   
 
 `;  
@@ -75,7 +78,8 @@ export const TitleProject = styled.div`
   font-size: 18px;
 `;
 
-export const Description = styled.div``;
+export const Description = styled.div`
+font-size: 16px; `;
 
 export const Acess = styled.div`
   color: #F27649;

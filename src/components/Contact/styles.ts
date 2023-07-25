@@ -51,11 +51,19 @@ export const Title = styled.div`
 export const Contacts = styled.div`
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   color: #fff;
   font-size: 1.5rem;
   padding-top: 0.7rem;
   gap: 5rem;
   opacity: 0.7;
+  @media (max-width: 870px){
+    padding-bottom: 3rem;
+  }
+  @media (max-width: 670px) {
+    gap: 3rem;
+
+  }
 `;
 export const Contato = styled.div`
 display: flex;
@@ -63,7 +71,7 @@ cursor: pointer;
 flex-direction: column;
 align-items: center;
 justify-content: flex-start;
-gap: 0.4rem;
+gap: 0.5rem;
 :hover {
   transform: scale(1.1);
   color: none;
@@ -71,6 +79,10 @@ gap: 0.4rem;
 }
 a {
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .img{
   color: #f27649;
@@ -79,14 +91,23 @@ a {
   height: 5rem;
   padding: 1rem;
   border-radius: 5px 20px 5px;
+  @media (max-width: 870px) {
+    width: 3rem;
+  height: 4rem;
+  padding: 0.8rem;
+  }
 }
 
 h5 {
   font-size: 20px;
+  padding-top: 0.4rem;
   font-weight: 700;
+  @media (max-width: 870px) {
+    font-size: 18px;
+  }
 }
 span {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 `;

@@ -41,7 +41,7 @@ export const Title = styled.div`
     font-size: 14px;
   }
   @media (max-width: 375px){
-    font-size: 12px;
+    font-size: 14px;
   }
 `;
 
@@ -86,12 +86,6 @@ export const Aboutme = styled.div`
   color: #FFFFFF;
   opacity: 0.5;
   font-size: 16px;
-  @media (max-width: 515px) {
-    font-size: 14px;
-  }
-  @media (max-width: 375px){
-    font-size: 12px;
-  }
 `;
 
 export const ContainerInfo = styled.div`

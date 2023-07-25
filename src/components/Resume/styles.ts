@@ -55,11 +55,9 @@ export const Text = styled.div`
     font-size: 18px;
     text-align: justify;
     @media (max-width: 515px) {
-    font-size: 14px;
+    font-size: 16px;
   }
-  @media (max-width: 375px){
-    font-size: 12px;
-  }
+  
   }
 `;
 
@@ -80,9 +78,7 @@ export const Tecnologias = styled.ul`
     color: #ffffff;
     opacity: 0.7;
     font-size: 14px;
-    @media (max-width: 515px) {
-      font-size: 10px;
-    }
+
   }
 
   li:before {
