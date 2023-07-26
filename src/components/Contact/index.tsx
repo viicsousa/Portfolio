@@ -5,14 +5,15 @@ import { Container, Title, Contacts, Contato } from "./styles";
 
 export default function Contact() {
   return (
-    <Container>
+    <Container id='contacts'>
       <Title><h2>Contato</h2>
       <div></div></Title>
       <Contacts>
         <Contato>
-          <BsFillEnvelopeFill className='img'/>
+          <a href="mailto:victoria.vasconcelos@hotmail.com" target='_blank'><BsFillEnvelopeFill className='img'/>
           <h5>E-mail</h5>
-          <span>victoria.vasconcelos@hotmail.com</span></Contato>
+          <span>victoria.vasconcelos@hotmail.com</span></a>
+        </Contato>
         <Contato>
           <a href="https://wa.me/5562985797421" target='_blank'> <AiOutlineWhatsApp className='img'/>
           <h5>Telefone</h5>

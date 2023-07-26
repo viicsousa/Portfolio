@@ -25,7 +25,7 @@ export default function Projects() {
           <TitleProject>Ladding page</TitleProject>
           <Description>
             Esse projeto é uma ladding page para divulgar coachs. Foi utilizado
-            typescript e next. É detalhado os coachs e os valores, possuí também
+            typescript e next. É detalhado os coachs e os valores, possui também
             um formulário para contanto e mais informações.
           </Description>
           <Links>

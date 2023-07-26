@@ -64,7 +64,7 @@ export default function NavBar() {
             offset={-100}
             duration={500}
             onClick={() => setCheck(false)}>Projetos</Link>
-          <Link to="contact"
+          <Link to="contacts"
             activeClass="active"
             className="nav"
             spy={true}
