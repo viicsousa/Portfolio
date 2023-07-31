@@ -8,7 +8,7 @@ export const ContainerResume = styled.div`
   background: #363636;
   width: 100%;
   padding: 0rem 10rem;
-  @media (max-width: 870px){
+  @media (max-width: 870px) {
     padding: 0 5rem;
   }
   @media (max-width: 590px) {
@@ -17,7 +17,7 @@ export const ContainerResume = styled.div`
   @media (max-width: 415px) {
     padding: 2.5rem 1.5rem;
   }
-  @media (max-width: 375px){
+  @media (max-width: 375px) {
     padding: 2rem 1.5rem;
   }
 `;
@@ -44,20 +44,17 @@ export const Title = styled.div`
       width: 8rem;
     }
   }
-  
 `;
 
 export const Text = styled.div`
-
   p {
     color: #ffffff;
     opacity: 0.7;
     font-size: 18px;
     text-align: justify;
     @media (max-width: 515px) {
-    font-size: 16px;
-  }
-  
+      font-size: 16px;
+    }
   }
 `;
 
@@ -71,14 +68,13 @@ export const Tecnologias = styled.ul`
   list-style: none;
   @media (max-width: 515px) {
     height: 6rem;
-    }
+  }
   li {
     margin: 5px 0;
     padding-right: 35px;
     color: #ffffff;
     opacity: 0.7;
     font-size: 14px;
-
   }
 
   li:before {
